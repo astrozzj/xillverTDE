@@ -1,6 +1,6 @@
 # xillverTDE
 
-`xillverTDE.fits` is an additive XSPEC table model in the `xillver`/`relxill` family for modeling X-ray reflection in tidal disruption event (TDE) and other soft, super-Eddington systems. It uses a single-temperature blackbody illuminating spectrum. This repository provides the table so published spectral fits can be reproduced.
+`xillverTDE.fits` is an additive XSPEC table model in the `xillver`/`relxill` family for modeling X-ray reflection in tidal disruption event (TDE) and other soft, super-Eddington systems. It uses a single-temperature blackbody illuminating spectrum. For more details about the model, please refer to Masterson et al. 2022, [*The Astrophysical Journal*, 934, 35.]. 
 
 Use it in XSPEC with:
 
@@ -8,9 +8,9 @@ Use it in XSPEC with:
 model atable{xillverTDE.fits}
 ```
 
-## Citation
+## Attribution
 
-If you use `xillverTDE` or the table provided in this repository in a publication, please kindly cite the paper that introduced and first applied the model:
+If you use `xillverTDE` provided in this repository in a publication, please kindly cite the paper that introduced and first applied the model:
 
 Masterson, M., Kara, E., Ricci, C., et al. 2022, [*The Astrophysical Journal*, 934, 35.](https://doi.org/10.3847/1538-4357/ac76c0) | [arXiv:2206.05140](https://arxiv.org/abs/2206.05140)
 
